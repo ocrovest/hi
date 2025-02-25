@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "LC Mogi";
+    src: url("../fonts/lcmogi/lcmogi-a.ttf");
+}
+
+@font-face {
+    font-family: "Fairfax";
+    src: url("../fonts/fairfax/FairfaxHD.ttf");
+}
+
+body {
+    font-family: "Fairfax";
+    background-color: #907fa0;
+}
+
+img {
+    height: 4.5em;
+}
+
+.receipt {
+    text-align: center;
+    width: max-content;
+    height: 30em;
+    background-image: url("../images/paper.jpg");
+    background-blend-mode: lighten;
+    background-color: rgb(255, 255, 255, 0.6);
+    box-shadow: 0 0 1.5em black;
+    padding: 1em;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    font-family: "LC Mogi";
+    font-size: 4em;
+}
+
+.receipt-table {
+    margin: 0 auto;
+}
+
+.receipt-table th, td {
+    text-align: left;
+}
+
+.amt-col {
+    padding-left: 5em;
+}
